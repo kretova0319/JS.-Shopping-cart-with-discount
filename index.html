@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Корзина</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Корзина</h1>
+      <div class="container">
+        <div class="item">
+          <img src="assets/basketball.jpg" alt="basketball" />
+          <div class="itemDiscription">
+            <h3>Мяч баскетбольный</h3>
+            <p>Цвет: Классический</p>
+            <p>Размер: Стандарт</p>
+            <p>Количество: 1</p>
+          </div>
+          <div class="price1 priceText">8000.50</div>
+        </div>
+        <div class="item">
+          <img src="assets/football.jpg" alt="basketball" />
+          <div class="itemDiscription">
+            <h3>Мяч футбольный</h3>
+            <p>Цвет: Классический</p>
+            <p>Размер: Стандарт</p>
+            <p>Количество: 1</p>
+          </div>
+          <div class="price2 priceText">6000</div>
+        </div>
+        <div class="item">
+          <img src="assets/volleyball.jpg" alt="basketball" />
+          <div class="itemDiscription">
+            <h3>Мяч воллейбольный</h3>
+            <p>Цвет: Классический</p>
+            <p>Размер: Стандарт</p>
+            <p>Количество: 1</p>
+          </div>
+          <div class="price3 priceText">6100</div>
+        </div>
+        <div class="item">
+          <img src="assets/regby.jpg" alt="basketball" />
+          <div class="itemDiscription">
+            <h3>Мяч для регби</h3>
+            <p>Цвет: Классический</p>
+            <p>Размер: Стандарт</p>
+            <p>Количество: 1</p>
+          </div>
+          <div class="price4 priceText">10500</div>
+        </div>
+      </div>
+      <div class="summery">
+        <button onclick="getDiscount()" class="discount">
+          Использовать купон на 20%
+        </button>
+        <div class="ammounts">
+          <p class="ammountText">Итого:</p>
+          <p class="priceText priceFull">1</p>
+        </div>
+      </div>
+    </section>
+    <script src="part11_star.js"></script>
+  </body>
+</html>
